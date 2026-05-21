@@ -1,0 +1,161 @@
+[
+  {
+    "rank": 1,
+    "diseaseId": "ebola",
+    "slug": "ebola-virus-disease",
+    "name": "Ebola virus disease",
+    "mortalityRate": 50,
+    "totalDeaths": 18,
+    "affectedRegions": [
+      "Africa"
+    ],
+    "trend": "flat",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 2,
+    "diseaseId": "marburg",
+    "slug": "marburg-virus-disease",
+    "name": "Marburg virus disease",
+    "mortalityRate": 50,
+    "totalDeaths": 12,
+    "affectedRegions": [
+      "Africa"
+    ],
+    "trend": "flat",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 3,
+    "diseaseId": "mers-cov",
+    "slug": "mers-cov",
+    "name": "MERS-CoV",
+    "mortalityRate": 34,
+    "totalDeaths": 940,
+    "affectedRegions": [
+      "Asia"
+    ],
+    "trend": "flat",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 4,
+    "diseaseId": "lung-cancers",
+    "slug": "trachea-bronchus-and-lung-cancers",
+    "name": "Trachea, bronchus, and lung cancers",
+    "mortalityRate": 18.5,
+    "totalDeaths": 1800000,
+    "affectedRegions": [
+      "Global",
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "trend": "flat",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 5,
+    "diseaseId": "tb",
+    "slug": "tuberculosis",
+    "name": "Tuberculosis",
+    "mortalityRate": 14.1,
+    "totalDeaths": 1250000,
+    "affectedRegions": [
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "trend": "flat",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 6,
+    "diseaseId": "ihd",
+    "slug": "ischaemic-heart-disease",
+    "name": "Ischaemic heart disease",
+    "mortalityRate": 12.9,
+    "totalDeaths": 9100000,
+    "affectedRegions": [
+      "Global",
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "trend": "flat",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 7,
+    "diseaseId": "stroke",
+    "slug": "stroke",
+    "name": "Stroke",
+    "mortalityRate": 10.2,
+    "totalDeaths": 6600000,
+    "affectedRegions": [
+      "Global",
+      "Asia",
+      "Africa",
+      "Europe"
+    ],
+    "trend": "flat",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 8,
+    "diseaseId": "dementias",
+    "slug": "alzheimers-disease-and-other-dementias",
+    "name": "Alzheimer's disease and other dementias",
+    "mortalityRate": 7.4,
+    "totalDeaths": 1800000,
+    "affectedRegions": [
+      "Global",
+      "Europe",
+      "North America",
+      "Asia"
+    ],
+    "trend": "up",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 9,
+    "diseaseId": "neonatal",
+    "slug": "neonatal-conditions",
+    "name": "Neonatal conditions",
+    "mortalityRate": 6.1,
+    "totalDeaths": 1900000,
+    "affectedRegions": [
+      "Global",
+      "Africa",
+      "Asia"
+    ],
+    "trend": "down",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  },
+  {
+    "rank": 10,
+    "diseaseId": "copd",
+    "slug": "chronic-obstructive-pulmonary-disease-copd",
+    "name": "Chronic obstructive pulmonary disease / COPD",
+    "mortalityRate": 5.6,
+    "totalDeaths": 3500000,
+    "affectedRegions": [
+      "Global",
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "trend": "up",
+    "lastUpdated": "2026-05-20T23:30:55.137Z",
+    "quality": "estimated"
+  }
+]

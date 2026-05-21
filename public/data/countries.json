@@ -1,0 +1,1452 @@
+[
+  {
+    "iso": "CHN",
+    "country": "China",
+    "region": "Asia",
+    "latitude": 35.8617,
+    "longitude": 104.1954,
+    "severity": "critical",
+    "mortalityRate": {
+      "value": 13.4,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": null,
+      "unit": "per100k",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": null,
+      "unit": "percent",
+      "quality": "unavailable",
+      "source": "Not consistently published",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 2200000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "IND",
+    "country": "India",
+    "region": "Asia",
+    "latitude": 20.5937,
+    "longitude": 78.9629,
+    "severity": "critical",
+    "mortalityRate": {
+      "value": 14.7,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": null,
+      "unit": "per100k",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": null,
+      "unit": "percent",
+      "quality": "unavailable",
+      "source": "Not consistently published",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 1800000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "USA",
+    "country": "United States",
+    "region": "North America",
+    "latitude": 37.0902,
+    "longitude": -95.7129,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 1.1,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 180,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 98.4,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 1200000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 104000000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 6,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "BRA",
+    "country": "Brazil",
+    "region": "South America",
+    "latitude": -14.235,
+    "longitude": -51.9253,
+    "severity": "moderate",
+    "mortalityRate": {
+      "value": 1.5,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 110,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 97.9,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 710000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 38000000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 4,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/OWID fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "RUS",
+    "country": "Russia",
+    "region": "Europe",
+    "latitude": 61.524,
+    "longitude": 105.3188,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 9.6,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": null,
+      "unit": "per100k",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": null,
+      "unit": "percent",
+      "quality": "unavailable",
+      "source": "Not consistently published",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 310000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "NGA",
+    "country": "Nigeria",
+    "region": "Africa",
+    "latitude": 9.082,
+    "longitude": 8.6753,
+    "severity": "critical",
+    "mortalityRate": {
+      "value": 7.2,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": null,
+      "unit": "per100k",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": null,
+      "unit": "percent",
+      "quality": "unavailable",
+      "source": "Not consistently published",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 270000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "PAK",
+    "country": "Pakistan",
+    "region": "Asia",
+    "latitude": 30.3753,
+    "longitude": 69.3451,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 4.3,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 2600,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 91,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 190000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 16000000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 4,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "IDN",
+    "country": "Indonesia",
+    "region": "Asia",
+    "latitude": -0.7893,
+    "longitude": 113.9213,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 13.8,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 385,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 84.6,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 134000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 1060000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 2,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "JPN",
+    "country": "Japan",
+    "region": "Asia",
+    "latitude": 36.2048,
+    "longitude": 138.2529,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 9.1,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": null,
+      "unit": "per100k",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": null,
+      "unit": "percent",
+      "quality": "unavailable",
+      "source": "Not consistently published",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 115000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "MEX",
+    "country": "Mexico",
+    "region": "North America",
+    "latitude": 23.6345,
+    "longitude": -102.5528,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 5.3,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": null,
+      "unit": "per100k",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": null,
+      "unit": "percent",
+      "quality": "unavailable",
+      "source": "Not consistently published",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 115000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "ETH",
+    "country": "Ethiopia",
+    "region": "Africa",
+    "latitude": 9.145,
+    "longitude": 40.4897,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 2.2,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 6100,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 96,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 72000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 14000000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 4,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "PHL",
+    "country": "Philippines",
+    "region": "Asia",
+    "latitude": 12.8797,
+    "longitude": 121.774,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 12.6,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 320,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 86.1,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 72000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 740000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 3,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Tuberculosis Programme fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "ITA",
+    "country": "Italy",
+    "region": "Europe",
+    "latitude": 41.8719,
+    "longitude": 12.5674,
+    "severity": "moderate",
+    "mortalityRate": {
+      "value": 8.8,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": null,
+      "unit": "per100k",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": null,
+      "unit": "percent",
+      "quality": "unavailable",
+      "source": "Not consistently published",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 67000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "COD",
+    "country": "Democratic Republic of the Congo",
+    "region": "Africa",
+    "latitude": -4.0383,
+    "longitude": 21.7587,
+    "severity": "critical",
+    "mortalityRate": {
+      "value": 0.3,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO/UNICEF fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 160,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO/UNICEF fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 97.9,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 52000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/UNICEF fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 1100000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/UNICEF fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 8,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO/UNICEF fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "DEU",
+    "country": "Germany",
+    "region": "Europe",
+    "latitude": 51.1657,
+    "longitude": 10.4515,
+    "severity": "moderate",
+    "mortalityRate": {
+      "value": 15.8,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": null,
+      "unit": "per100k",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": null,
+      "unit": "percent",
+      "quality": "unavailable",
+      "source": "Not consistently published",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 46000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": null,
+      "unit": "count",
+      "quality": "unavailable",
+      "source": "WHO Global Health Estimates fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "FRA",
+    "country": "France",
+    "region": "Europe",
+    "latitude": 46.2276,
+    "longitude": 2.2137,
+    "severity": "moderate",
+    "mortalityRate": {
+      "value": 0.06,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO GISRS fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 3900,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO GISRS fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 99.2,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 11000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO GISRS fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 9000000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO GISRS fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 3,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO GISRS fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "YEM",
+    "country": "Yemen",
+    "region": "Asia",
+    "latitude": 15.5527,
+    "longitude": 48.5164,
+    "severity": "critical",
+    "mortalityRate": {
+      "value": 1.9,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 140,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 97.2,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 1500,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 76000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 4,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "SAU",
+    "country": "Saudi Arabia",
+    "region": "Asia",
+    "latitude": 23.8859,
+    "longitude": 45.0792,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 35,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 0.12,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 63,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 870,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 2500,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 2,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "HTI",
+    "country": "Haiti",
+    "region": "North America",
+    "latitude": 18.9712,
+    "longitude": -72.2852,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 2,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 110,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 96.8,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 820,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 42000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 3,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "ZMB",
+    "country": "Zambia",
+    "region": "Africa",
+    "latitude": -13.1339,
+    "longitude": 27.8493,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 2.5,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 92,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 96.9,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 760,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 30400,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 2,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "PER",
+    "country": "Peru",
+    "region": "South America",
+    "latitude": -9.19,
+    "longitude": -75.0152,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 0.07,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 9100,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 98.8,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 430,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 260000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 4,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "KOR",
+    "country": "South Korea",
+    "region": "Asia",
+    "latitude": 35.9078,
+    "longitude": 127.7669,
+    "severity": "low",
+    "mortalityRate": {
+      "value": 20,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 0.01,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 80,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 38,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 186,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 0,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "ARE",
+    "country": "United Arab Emirates",
+    "region": "Asia",
+    "latitude": 23.4241,
+    "longitude": 53.8478,
+    "severity": "moderate",
+    "mortalityRate": {
+      "value": 32,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 0.03,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 65,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 20,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 60,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 0,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "UGA",
+    "country": "Uganda",
+    "region": "Africa",
+    "latitude": 1.3733,
+    "longitude": 32.2903,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 47,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 0.07,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 50,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 18,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 36,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 1,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "ESP",
+    "country": "Spain",
+    "region": "Europe",
+    "latitude": 40.4637,
+    "longitude": -3.7492,
+    "severity": "moderate",
+    "mortalityRate": {
+      "value": 0.02,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 7,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 99.4,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 10,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 7600,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 1,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "TZA",
+    "country": "Tanzania",
+    "region": "Africa",
+    "latitude": -6.369,
+    "longitude": 34.8888,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 48,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 0.04,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 50,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 6,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 12,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 1,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "GNQ",
+    "country": "Equatorial Guinea",
+    "region": "Africa",
+    "latitude": 1.6508,
+    "longitude": 10.2679,
+    "severity": "high",
+    "mortalityRate": {
+      "value": 52,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 0.03,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 45,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 6,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 12,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 0,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO Disease Outbreak News fallback",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "COL",
+    "country": "Colombia",
+    "region": "South America",
+    "latitude": 4.5709,
+    "longitude": -74.2973,
+    "severity": "moderate",
+    "mortalityRate": {
+      "value": 0.01,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 24,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 99.5,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 5,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 9000,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 1,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  },
+  {
+    "iso": "THA",
+    "country": "Thailand",
+    "region": "Asia",
+    "latitude": 15.87,
+    "longitude": 100.9925,
+    "severity": "low",
+    "mortalityRate": {
+      "value": 0.01,
+      "unit": "percent",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "infectionRate": {
+      "value": 7,
+      "unit": "per100k",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "recoveryRate": {
+      "value": 99.6,
+      "unit": "percent",
+      "quality": "mocked",
+      "source": "Fallback model",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalDeaths": {
+      "value": 1,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "totalCases": {
+      "value": 1200,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    },
+    "activeOutbreaks": {
+      "value": 1,
+      "unit": "count",
+      "quality": "estimated",
+      "source": "WHO arbovirus fallback sample",
+      "updatedAt": "2026-05-20T23:30:55.137Z"
+    }
+  }
+]

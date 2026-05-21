@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-05-20T23:30:55.137Z",
+  "mortalityRefreshHours": 12,
+  "outbreakRefreshHours": 1,
+  "status": "fallback",
+  "warnings": [
+    "WHO GHO probe failed; using bundled normalized fallback: Error: https://ghoapi.azureedge.net/api/Indicator?$top=5 failed after 3 attempts: TypeError: fetch failed",
+    "OWID probe failed; retaining fallback trend series: Error: https://ourworldindata.org/grapher/daily-cases-covid-19.csv failed after 3 attempts: TypeError: fetch failed",
+    "WHO Disease Outbreak News probe failed; using fallback headlines: Error: WHO DON failed after 3 attempts: TypeError: fetch failed"
+  ],
+  "sources": [
+    {
+      "name": "WHO Global Health Observatory",
+      "url": "https://www.who.int/data/gho",
+      "cadence": "Periodic source updates; NateEyeView refreshes mortality indicators every 12 hours."
+    },
+    {
+      "name": "Our World in Data Grapher",
+      "url": "https://ourworldindata.org/grapher",
+      "cadence": "Dataset-dependent periodic updates; used for trend enrichment where available."
+    },
+    {
+      "name": "WHO Disease Outbreak News",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "cadence": "Checked hourly by GitHub Actions."
+    }
+  ]
+}
