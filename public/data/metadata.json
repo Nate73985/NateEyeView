@@ -1,12 +1,10 @@
 {
-  "generatedAt": "2026-05-20T23:30:55.137Z",
+  "generatedAt": "2026-05-21T05:10:36.077Z",
   "mortalityRefreshHours": 12,
   "outbreakRefreshHours": 1,
-  "status": "fallback",
+  "status": "live",
   "warnings": [
-    "WHO GHO probe failed; using bundled normalized fallback: Error: https://ghoapi.azureedge.net/api/Indicator?$top=5 failed after 3 attempts: TypeError: fetch failed",
-    "OWID probe failed; retaining fallback trend series: Error: https://ourworldindata.org/grapher/daily-cases-covid-19.csv failed after 3 attempts: TypeError: fetch failed",
-    "WHO Disease Outbreak News probe failed; using fallback headlines: Error: WHO DON failed after 3 attempts: TypeError: fetch failed"
+    "OWID probe failed; retaining fallback trend series: Error: https://ourworldindata.org/grapher/daily-cases-covid-19.csv failed after 3 attempts: Error: 404 Not Found"
   ],
   "sources": [
     {
