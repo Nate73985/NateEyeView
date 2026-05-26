@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: nateeyeview-data
@@ -33,29 +31,8 @@ jobs:
       - name: Fetch and normalize public health data
         run: npm run fetch:data
 
-      - name: Build static site
-        env:
-          GITHUB_PAGES: 'true'
-        run: npm run build
-
       - name: Commit refreshed JSON data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(data): refresh NateEyeView datasets'
           file_pattern: public/data/*.json
-
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: out
-
-  deploy-pages:
-    needs: refresh-data
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
