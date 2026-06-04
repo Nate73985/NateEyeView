@@ -14,6 +14,7 @@ import {
   Radio,
   Search,
   ShieldCheck,
+  SlidersHorizontal,
   Skull,
   Users
 } from 'lucide-react';
@@ -42,6 +43,106 @@ function unitValue(country: CountryMetric, metric: MetricKey, mode: UnitMode) {
   if (mode === 'percent') return metric.includes('Rate') ? formatRate(value) : `${Math.min(100, value / 1000000).toFixed(2)}%`;
   if (mode === 'per100k') return metric === 'infectionRate' || country[metric].unit === 'per100k' ? `${value.toLocaleString()} / 100k` : `${(value / 1000).toFixed(2)} / 100k`;
   return formatMetric(country[metric]);
+}
+
+function CommandFilters({
+  data,
+  diseaseSlug,
+  setDiseaseSlug,
+  metric,
+  setMetric,
+  mode,
+  setMode,
+  region,
+  setRegion,
+  query,
+  setQuery
+}: {
+  data: DashboardData;
+  diseaseSlug: string;
+  setDiseaseSlug: (value: string) => void;
+  metric: MetricKey;
+  setMetric: (value: MetricKey) => void;
+  mode: UnitMode;
+  setMode: (value: UnitMode) => void;
+  region: Region;
+  setRegion: (value: Region) => void;
+  query: string;
+  setQuery: (value: string) => void;
+}) {
+  return (
+    <>
+      <p className="panel-title">Command filters</p>
+      <div className="mt-4 grid gap-3">
+        <label className="grid gap-2 text-sm">
+          <span className="text-slate-300">Disease or condition</span>
+          <select className="control" value={diseaseSlug} onChange={(event) => setDiseaseSlug(event.target.value)}>
+            {data.diseases.map((item) => (
+              <option key={item.slug} value={item.slug}>
+                {item.name}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="grid gap-2 text-sm">
+          <span className="text-slate-300">Metric</span>
+          <select className="control" value={metric} onChange={(event) => setMetric(event.target.value as MetricKey)}>
+            {metricKeys.map((key) => (
+              <option key={key} value={key}>
+                {metricLabels[key]}
+              </option>
+            ))}
+          </select>
+        </label>
+        <fieldset className="grid gap-2">
+          <legend className="text-sm text-slate-300">Display mode</legend>
+          <div className="grid grid-cols-3 gap-1 rounded-md border border-line bg-slate-950/50 p-1">
+            {(['actual', 'percent', 'per100k'] as UnitMode[]).map((item) => (
+              <button
+                key={item}
+                type="button"
+                className={`min-h-10 rounded px-2 py-2 text-[11px] font-bold uppercase leading-tight sm:text-xs ${mode === item ? 'bg-cyan text-slate-950' : 'text-slate-300 hover:bg-white/8'}`}
+                onClick={() => setMode(item)}
+              >
+                {item === 'per100k' ? 'Per 100k' : item === 'percent' ? 'Percent' : 'Actual'}
+              </button>
+            ))}
+          </div>
+        </fieldset>
+        <label className="grid gap-2 text-sm">
+          <span className="text-slate-300">Region</span>
+          <select className="control" value={region} onChange={(event) => setRegion(event.target.value as Region)}>
+            {regions.map((item) => (
+              <option key={item} value={item}>
+                {item}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="grid gap-2 text-sm">
+          <span className="text-slate-300">Search</span>
+          <span className="relative">
+            <Search className="pointer-events-none absolute left-3 top-3 h-4 w-4 text-slate-500" aria-hidden />
+            <input className="control w-full pl-9" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Country or disease" />
+          </span>
+        </label>
+      </div>
+      <div className="mt-5 rounded-lg border border-line bg-slate-950/45 p-3 xl:mt-6">
+        <p className="panel-title">Severity legend</p>
+        <div className="mt-3 grid gap-2">
+          {Object.entries(severityColors).map(([label, color]) => (
+            <div key={label} className="flex items-center justify-between text-sm text-slate-300">
+              <span className="flex items-center gap-2 capitalize">
+                <span className="h-2.5 w-2.5 rounded-full" style={{ background: color }} />
+                {label}
+              </span>
+              <span className="text-xs text-slate-500">risk tier</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default function Dashboard({ data }: { data: DashboardData }) {
@@ -84,80 +185,49 @@ export default function Dashboard({ data }: { data: DashboardData }) {
   return (
     <Shell>
       <div className="grid items-start gap-4 xl:grid-cols-[20rem_minmax(0,1fr)_24rem] 3xl:grid-cols-[22rem_minmax(0,1fr)_28rem]">
-        <aside className="glass rounded-lg p-4 xl:sticky xl:top-24 xl:h-[calc(100vh-7rem)]">
-          <p className="panel-title">Command filters</p>
-          <div className="mt-4 grid gap-3">
-            <label className="grid gap-2 text-sm">
-              <span className="text-slate-300">Disease or condition</span>
-              <select className="control" value={diseaseSlug} onChange={(event) => setDiseaseSlug(event.target.value)}>
-                {data.diseases.map((item) => (
-                  <option key={item.slug} value={item.slug}>
-                    {item.name}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label className="grid gap-2 text-sm">
-              <span className="text-slate-300">Metric</span>
-              <select className="control" value={metric} onChange={(event) => setMetric(event.target.value as MetricKey)}>
-                {metricKeys.map((key) => (
-                  <option key={key} value={key}>
-                    {metricLabels[key]}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <fieldset className="grid gap-2">
-              <legend className="text-sm text-slate-300">Display mode</legend>
-              <div className="grid grid-cols-3 gap-1 rounded-md border border-line bg-slate-950/50 p-1">
-                {(['actual', 'percent', 'per100k'] as UnitMode[]).map((item) => (
-                  <button
-                    key={item}
-                    type="button"
-                    className={`rounded px-2 py-2 text-xs font-bold uppercase ${mode === item ? 'bg-cyan text-slate-950' : 'text-slate-300 hover:bg-white/8'}`}
-                    onClick={() => setMode(item)}
-                  >
-                    {item === 'per100k' ? 'Per 100k' : item === 'percent' ? 'Percent' : 'Actual'}
-                  </button>
-                ))}
-              </div>
-            </fieldset>
-            <label className="grid gap-2 text-sm">
-              <span className="text-slate-300">Region</span>
-              <select className="control" value={region} onChange={(event) => setRegion(event.target.value as Region)}>
-                {regions.map((item) => (
-                  <option key={item} value={item}>
-                    {item}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label className="grid gap-2 text-sm">
-              <span className="text-slate-300">Search</span>
-              <span className="relative">
-                <Search className="pointer-events-none absolute left-3 top-3 h-4 w-4 text-slate-500" aria-hidden />
-                <input className="control w-full pl-9" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Country or disease" />
-              </span>
-            </label>
+        <details className="glass rounded-lg p-4 xl:hidden">
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-bold text-white [&::-webkit-details-marker]:hidden">
+            <span className="flex items-center gap-2">
+              <SlidersHorizontal className="h-4 w-4 text-cyan" aria-hidden />
+              Command filters
+            </span>
+            <span className="rounded border border-cyan/30 bg-cyan/10 px-2 py-1 text-[11px] uppercase tracking-wide text-cyan">Open</span>
+          </summary>
+          <div className="mt-4 border-t border-line pt-4">
+            <CommandFilters
+              data={data}
+              diseaseSlug={diseaseSlug}
+              setDiseaseSlug={setDiseaseSlug}
+              metric={metric}
+              setMetric={setMetric}
+              mode={mode}
+              setMode={setMode}
+              region={region}
+              setRegion={setRegion}
+              query={query}
+              setQuery={setQuery}
+            />
           </div>
-          <div className="mt-6 rounded-lg border border-line bg-slate-950/45 p-3">
-            <p className="panel-title">Severity legend</p>
-            <div className="mt-3 grid gap-2">
-              {Object.entries(severityColors).map(([label, color]) => (
-                <div key={label} className="flex items-center justify-between text-sm text-slate-300">
-                  <span className="flex items-center gap-2 capitalize">
-                    <span className="h-2.5 w-2.5 rounded-full" style={{ background: color }} />
-                    {label}
-                  </span>
-                  <span className="text-xs text-slate-500">risk tier</span>
-                </div>
-              ))}
-            </div>
-          </div>
+        </details>
+
+        <aside className="glass hidden rounded-lg p-4 xl:sticky xl:top-24 xl:block xl:h-[calc(100vh-7rem)]">
+          <CommandFilters
+            data={data}
+            diseaseSlug={diseaseSlug}
+            setDiseaseSlug={setDiseaseSlug}
+            metric={metric}
+            setMetric={setMetric}
+            mode={mode}
+            setMode={setMode}
+            region={region}
+            setRegion={setRegion}
+            query={query}
+            setQuery={setQuery}
+          />
         </aside>
 
         <section className="grid min-w-0 gap-4">
-          <section className="signal-console rounded-lg p-4 md:p-5">
+          <section className="signal-console rounded-lg p-3 sm:p-4 md:p-5">
             <div className="relative z-10 grid gap-4 2xl:grid-cols-[minmax(0,1fr)_24rem]">
               <div>
                 <div className="flex flex-wrap items-center gap-2">
@@ -175,7 +245,7 @@ export default function Dashboard({ data }: { data: DashboardData }) {
                 <div className="mt-5 grid gap-4 lg:grid-cols-[minmax(0,1fr)_18rem]">
                   <div>
                     <p className="panel-title">Selected signal</p>
-                    <h1 className="mt-2 text-4xl font-black leading-none tracking-wide text-white sm:text-5xl">{disease.name}</h1>
+                    <h1 className="mt-2 text-3xl font-black leading-none tracking-wide text-white sm:text-5xl">{disease.name}</h1>
                     <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-300">{disease.summary}</p>
                   </div>
                   <div className="rounded-lg border border-cyan/20 bg-slate-950/55 p-4">

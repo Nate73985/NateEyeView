@@ -7,14 +7,19 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: nateeyeview-data
+  group: pages
   cancel-in-progress: false
 
 jobs:
   refresh-data:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,8 +27,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: npm ci
@@ -31,8 +39,22 @@ jobs:
       - name: Fetch and normalize public health data
         run: npm run fetch:data
 
+      - name: Build static site with refreshed data
+        env:
+          GITHUB_PAGES: 'true'
+        run: npm run build
+
       - name: Commit refreshed JSON data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(data): refresh NateEyeView datasets'
           file_pattern: public/data/*.json
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      - name: Deploy refreshed dashboard to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

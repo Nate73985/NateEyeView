@@ -121,7 +121,7 @@ async function main() {
   }
 
   try {
-    await probeSource(`${OWID_BASE}/daily-cases-covid-19.csv`);
+    await probeSource(`${OWID_BASE}/daily-cases-covid-region.csv?v=1&csvType=full&useColumnShortNames=false`);
     owidOk = true;
   } catch (error) {
     warnings.push(`OWID probe failed; retaining fallback trend series: ${String(error)}`);
