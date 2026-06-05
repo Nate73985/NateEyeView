@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-06-05T00:10:32.430Z",
+  "generatedAt": "2026-06-05T05:19:35.827Z",
   "mortalityRefreshHours": 12,
   "outbreakRefreshHours": 1,
   "status": "live",
   "warnings": [
-    "OWID probe failed; retaining fallback trend series: Error: https://ourworldindata.org/grapher/daily-cases-covid-19.csv failed after 3 attempts: Error: 404 Not Found"
+    "Public source probes succeeded. Some metrics remain normalized or estimated because source datasets publish on different cadences.",
+    "Recovery rate remains mocked where no consistent public API metric exists."
   ],
   "sources": [
     {
