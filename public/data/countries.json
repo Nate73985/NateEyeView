@@ -11,42 +11,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": null,
       "unit": "per100k",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": null,
       "unit": "percent",
       "quality": "unavailable",
       "source": "Not consistently published",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 2200000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -61,42 +61,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": null,
       "unit": "per100k",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": null,
       "unit": "percent",
       "quality": "unavailable",
       "source": "Not consistently published",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 1800000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -111,42 +111,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 180,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 98.4,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 1200000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 104000000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 6,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -161,42 +161,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 110,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 97.9,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 710000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 38000000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 4,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/OWID fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -211,42 +211,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": null,
       "unit": "per100k",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": null,
       "unit": "percent",
       "quality": "unavailable",
       "source": "Not consistently published",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 310000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -261,42 +261,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": null,
       "unit": "per100k",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": null,
       "unit": "percent",
       "quality": "unavailable",
       "source": "Not consistently published",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 270000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -311,42 +311,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 2600,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 91,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 190000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 16000000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 4,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -361,42 +361,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 385,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 84.6,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 134000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 1060000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 2,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -411,42 +411,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": null,
       "unit": "per100k",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": null,
       "unit": "percent",
       "quality": "unavailable",
       "source": "Not consistently published",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 115000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -461,42 +461,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": null,
       "unit": "per100k",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": null,
       "unit": "percent",
       "quality": "unavailable",
       "source": "Not consistently published",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 115000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -511,42 +511,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 6100,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 96,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 72000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 14000000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 4,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -561,42 +561,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 320,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 86.1,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 72000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 740000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 3,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Tuberculosis Programme fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -611,42 +611,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": null,
       "unit": "per100k",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": null,
       "unit": "percent",
       "quality": "unavailable",
       "source": "Not consistently published",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 67000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -661,42 +661,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO/UNICEF fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 160,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO/UNICEF fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 97.9,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 52000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/UNICEF fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 1100000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/UNICEF fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 8,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO/UNICEF fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -711,42 +711,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": null,
       "unit": "per100k",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": null,
       "unit": "percent",
       "quality": "unavailable",
       "source": "Not consistently published",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 46000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": null,
       "unit": "count",
       "quality": "unavailable",
       "source": "WHO Global Health Estimates fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -761,42 +761,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO GISRS fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 3900,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO GISRS fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 99.2,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 11000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO GISRS fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 9000000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO GISRS fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 3,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO GISRS fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -811,42 +811,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 140,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 97.2,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 1500,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 76000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 4,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -861,42 +861,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 0.12,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 63,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 870,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 2500,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 2,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -911,42 +911,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 110,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 96.8,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 820,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 42000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 3,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -961,42 +961,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 92,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 96.9,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 760,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 30400,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 2,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1011,42 +1011,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 9100,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 98.8,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 430,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 260000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 4,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1061,42 +1061,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 0.01,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 80,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 38,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 186,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 0,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1111,42 +1111,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 0.03,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 65,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 20,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 60,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 0,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1161,42 +1161,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 0.07,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 50,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 18,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 36,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 1,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1211,42 +1211,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 7,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 99.4,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 10,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 7600,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 1,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1261,42 +1261,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 0.04,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 50,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 6,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 12,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 1,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1311,42 +1311,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 0.03,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 45,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 6,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 12,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 0,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO Disease Outbreak News fallback",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1361,42 +1361,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 24,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 99.5,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 5,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 9000,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 1,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   },
   {
@@ -1411,42 +1411,42 @@
       "unit": "percent",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "infectionRate": {
       "value": 7,
       "unit": "per100k",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "recoveryRate": {
       "value": 99.6,
       "unit": "percent",
       "quality": "mocked",
       "source": "Fallback model",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalDeaths": {
       "value": 1,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "totalCases": {
       "value": 1200,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     },
     "activeOutbreaks": {
       "value": 1,
       "unit": "count",
       "quality": "estimated",
       "source": "WHO arbovirus fallback sample",
-      "updatedAt": "2026-07-03T14:09:03.843Z"
+      "updatedAt": "2026-07-03T16:26:10.858Z"
     }
   }
 ]
