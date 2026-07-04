@@ -1,17 +1,17 @@
 import type { MetricValue } from './types';
 
 export function formatNumber(value: number | null | undefined): string {
-  if (value === null || value === undefined || Number.isNaN(value)) return 'Unavailable';
+  if (value === null || value === undefined || Number.isNaN(value)) return 'N/A';
   return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(value);
 }
 
 export function formatRate(value: number | null | undefined): string {
-  if (value === null || value === undefined || Number.isNaN(value)) return 'Unavailable';
+  if (value === null || value === undefined || Number.isNaN(value)) return 'N/A';
   return `${new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(value)}%`;
 }
 
 export function formatMetric(metric: MetricValue): string {
-  if (metric.value === null) return 'Unavailable';
+  if (metric.value === null) return 'N/A';
   if (metric.unit === 'percent') return formatRate(metric.value);
   if (metric.unit === 'per100k') return `${metric.value.toLocaleString('en-US', { maximumFractionDigits: 2 })} / 100k`;
   return formatNumber(metric.value);

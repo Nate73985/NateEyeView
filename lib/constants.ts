@@ -29,7 +29,7 @@ export const severityColors = {
 export const qualityLabels = {
   reported: 'Reported',
   estimated: 'Estimated',
-  unavailable: 'Unavailable',
+  unavailable: 'N/A',
   stale: 'Stale',
   mocked: 'Mocked'
 };

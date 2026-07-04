@@ -39,7 +39,7 @@ function TrendIcon({ trend }: { trend: 'up' | 'down' | 'flat' }) {
 
 function unitValue(country: CountryMetric, metric: MetricKey, mode: UnitMode) {
   const value = country[metric].value;
-  if (value === null) return 'Unavailable';
+  if (value === null) return 'N/A';
   if (mode === 'percent') return metric.includes('Rate') ? formatRate(value) : `${Math.min(100, value / 1000000).toFixed(2)}%`;
   if (mode === 'per100k') return metric === 'infectionRate' || country[metric].unit === 'per100k' ? `${value.toLocaleString()} / 100k` : `${(value / 1000).toFixed(2)} / 100k`;
   return formatMetric(country[metric]);
@@ -310,7 +310,7 @@ export default function Dashboard({ data }: { data: DashboardData }) {
                   <p className="panel-title">Highest visible country</p>
                   <button type="button" className="mt-2 flex w-full items-center justify-between gap-3 text-left" onClick={() => highestCountry && setSelectedIso(highestCountry.iso)}>
                     <span>
-                      <span className="block text-lg font-black text-white">{highestCountry?.country ?? 'Unavailable'}</span>
+                      <span className="block text-lg font-black text-white">{highestCountry?.country ?? 'N/A'}</span>
                       <span className="text-sm text-slate-400">{highestCountry ? unitValue(highestCountry, metric, mode) : 'No country selected'}</span>
                     </span>
                     <Globe2 className="h-5 w-5 text-cyan" aria-hidden />
