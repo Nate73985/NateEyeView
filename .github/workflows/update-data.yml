@@ -44,12 +44,6 @@ jobs:
           GITHUB_PAGES: 'true'
         run: npm run build
 
-      - name: Commit refreshed JSON data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore(data): refresh NateEyeView datasets'
-          file_pattern: public/data/*.json
-
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -58,3 +52,9 @@ jobs:
       - name: Deploy refreshed dashboard to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      - name: Commit refreshed JSON data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(data): refresh NateEyeView datasets'
+          file_pattern: public/data/*.json
