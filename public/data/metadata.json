@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-09-05T20:58:02.292Z",
+  "generatedAt": "2026-09-05T22:47:01.284Z",
   "mortalityRefreshHours": 12,
   "outbreakRefreshHours": 1,
   "status": "live",
   "warnings": [
-    "WHO GHO probe failed; using bundled normalized fallback: Error: https://ghoapi.azureedge.net/api/Indicator?$top=5 failed after 3 attempts: Error: 504 Gateway Time-out"
+    "Public source probes succeeded. Some metrics remain normalized or estimated because source datasets publish on different cadences.",
+    "Recovery rate remains mocked where no consistent public API metric exists."
   ],
   "sources": [
     {
