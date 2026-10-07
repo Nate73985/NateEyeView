@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-10-06T20:01:04.373Z",
+  "generatedAt": "2026-10-07T00:25:12.097Z",
   "mortalityRefreshHours": 12,
   "outbreakRefreshHours": 1,
   "status": "live",
   "warnings": [
-    "OWID probe failed; retaining fallback trend series: Error: https://ourworldindata.org/grapher/daily-cases-covid-region.csv?v=1&csvType=full&useColumnShortNames=false failed after 3 attempts: Error: 503 Service Unavailable"
+    "Public source probes succeeded. Some metrics remain normalized or estimated because source datasets publish on different cadences.",
+    "Recovery rate remains mocked where no consistent public API metric exists."
   ],
   "sources": [
     {
