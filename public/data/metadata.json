@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-04T08:55:43.115Z",
+  "generatedAt": "2026-11-04T16:56:02.905Z",
   "mortalityRefreshHours": 12,
   "outbreakRefreshHours": 1,
   "status": "live",
   "warnings": [
-    "WHO GHO probe failed; using bundled normalized fallback: Error: https://ghoapi.azureedge.net/api/Indicator?$top=5 failed after 3 attempts: Error: 500 Internal Server Error"
+    "WHO GHO probe failed; using bundled normalized fallback: Error: https://ghoapi.azureedge.net/api/Indicator?$top=5 failed after 3 attempts: Error: 503 Service Unavailable"
   ],
   "sources": [
     {
