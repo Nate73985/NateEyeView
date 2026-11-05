@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-11-04T22:28:54.690Z",
+  "generatedAt": "2026-11-05T03:16:51.558Z",
   "mortalityRefreshHours": 12,
   "outbreakRefreshHours": 1,
   "status": "live",
   "warnings": [
-    "WHO GHO probe failed; using bundled normalized fallback: Error: https://ghoapi.azureedge.net/api/Indicator?$top=5 failed after 3 attempts: Error: 503 Service Unavailable"
+    "Public source probes succeeded. Some metrics remain normalized or estimated because source datasets publish on different cadences.",
+    "Recovery rate remains mocked where no consistent public API metric exists."
   ],
   "sources": [
     {
